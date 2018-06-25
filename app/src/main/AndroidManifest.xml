@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="alsasa.team_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".Logo"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstCome" />
+        <activity android:name=".OwnerChooseStore" />
+        <activity android:name=".OwnerMain" />
+        <activity android:name=".OwnerNewStore" />
+        <activity android:name=".ChatRoom" />
+        <activity android:name=".OwnerPosition" />
+        <activity android:name=".OwnerCalendar" />
+        <activity android:name=".OwnerNewStore2" />
+        <activity android:name=".OwnerMainHost" />
+        <activity android:name=".ChatList" />
+        <activity android:name=".OwnerEdu" />
+        <activity android:name=".OwnerMoney" />
+        <activity android:name=".TimerChooseStore" />
+        <activity android:name=".TimerMainHost" />
+        <activity android:name=".TimerMain" />
+        <activity android:name=".TimerMoney" />
+        <activity android:name=".TimerEdu" />
+        <activity android:name=".TimerChatList" />
+        <activity android:name=".OwnerChatList" />
+        <activity android:name=".OwnerInfo" />
+        <activity android:name=".TimerInfo" />
+        <activity android:name=".Practice" />
+        <activity android:name=".ChatRoom2" />
+        <activity android:name=".TimerNewJoin" />
+        <activity android:name=".TimerMoneySubDialogActivity"></activity>
+    </application>
+
+</manifest>

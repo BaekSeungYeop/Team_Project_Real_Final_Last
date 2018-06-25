@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "33897315603",
+    "firebase_url": "https://team-project-8efa0.firebaseio.com",
+    "project_id": "team-project-8efa0",
+    "storage_bucket": "team-project-8efa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33897315603:android:88bc4cd63f873a9c",
+        "android_client_info": {
+          "package_name": "alsasa.team_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33897315603-p5hc96dn6j7hov03jj9vr2kqbod32lgf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "33897315603-p5hc96dn6j7hov03jj9vr2kqbod32lgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD3y7UxjfF4UCCE9cHeOtJRTD-Z_m4JMQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

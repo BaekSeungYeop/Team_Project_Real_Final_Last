@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/owneredubb" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="235dp"
+            android:background="@android:color/white"
+            android:text="  오픈 시 가장 먼저 신경 써주세요!  "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="264dp"
+            android:layout_height="202dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="270dp"
+            android:text="1. 머신의 가운데 버튼(뜨거운 물)을 30초 간격으로 5번 틀어준다. \n\n2. 투명한 물이 나오면 추출틀을 빼고 마른수건으로 닦아준다.\n\n3. 추출틀을 다시 끼운다. \n\n4. 원두, 에스프레소 컵 등 재료와 식기를 세팅한다."
+            android:textSize="12sp" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
